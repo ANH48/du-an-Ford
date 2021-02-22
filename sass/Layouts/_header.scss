@@ -1,0 +1,135 @@
+// ĐÂY LÀ PHẦN VÍ DỤ ĐỂ CODE MẪU THÔI 
+// .header__left{
+//     display: flex;
+//     .navbar-brand{
+//         flex-grow: 1;
+//         img{
+//             width: 110px;
+//         }
+//     }
+//     .header__cate {
+//         flex-grow: 1;
+//         align-self: center;
+//         @include styleText($color-black-light,$fs-1,$fw-normal);
+//     }
+//     // xet kich thuoc cho the con flex-grow
+
+//     // form
+//     .header__form {
+//         flex-grow: 5;
+//         .form-control {
+//             background-color: $color-gray-1;
+//             border: none;
+//             margin-left: 0;
+//             transition: none;
+//             padding: $pd-1 $pd-2;
+//             &:focus {
+//                 box-shadow: none;
+//                 background-color: $color-white-0;
+//                 border-top: 1px solid $color-gray-3;
+//                 border-left: 1px solid $color-gray-3;
+//                 border-bottom: 1px solid $color-gray-3 
+//             }
+//             &:focus + .input-group-append {
+//                 .input-group-text {
+//                     background-color: $color-white-0;
+//                     color: $color-red-0;
+//                     border-top: 1px solid $color-gray-3;
+//                     border-right: 1px solid $color-gray-3;
+//                     border-bottom: 1px solid $color-gray-3 
+//                 }
+//                 &:hover{
+//                     .input-group-text {
+//                         background-color: $color-red-0;
+//                         color: $color-white-0;
+//                     }
+//             }
+//             }
+//         }
+//         .input-group-append {
+//             .input-group-text {
+//                 background-color: $color-gray-1;
+//                 color: $color-red-0;
+//                 border: none;
+//             }
+//             &:hover{
+//                     .input-group-text {
+//                         background-color: $color-red-0;
+//                         color: $color-white-0;
+//                     }
+//             }
+//         }
+//     }
+// }
+// .header__right{
+//     display: flex;
+//     justify-content: space-between;
+
+//     width: 100%;
+//     .nav-item{
+//         .nav-link {
+//             @include styleText($color-black-light,$fs-1,$fw-normal);
+//             padding: 11px 12px;
+//             white-space: nowrap;
+//             &:hover {
+//                 background-color: $color-gray-1;
+//             }
+//         }
+        
+//     }
+//     .ude-teach {
+//         .nav-link {
+//          border-right: 1px solid $color-gray-6;
+//          }
+//     }
+//     .ude-shoping-cart {
+//         .nav-link {
+//             // margin: 0 10px;
+//             padding: 8px 10px;
+//             margin: 0px 10px;
+//             &:hover {
+//                 background-color: $color-gray-1;
+//                 border-radius: 50%;
+//             }
+//         }
+//         // a {
+//         //     display: block;
+//         //     width: 45px;s
+//         //     height: 45px;
+//         //     line-height: 30px;
+            
+//         //     i {
+//         //         font-size: $fs-2;
+//         //         padding-left: - $fs-1;
+//         //     }
+
+//         // }
+//     }
+   
+// }
+
+// // REPONSIVE 
+// @include reponsive("extra-large"){
+//     .header__right {
+//         .ude-business,.ude-teach {
+//             display: none;
+//         }
+//     }
+// }
+// @include reponsive("medium"){
+//     .header__left{
+//         .header__form,.header__cate {
+//             display: none;
+//         }
+//         .navbar-brand {
+//                 flex-grow: 0;
+//         }
+//     }
+//     .header__right {
+//         .ude-btnGroup {
+//             display: none;
+//         }
+//     }
+// }\
+
+// CODE HERE ... 
