@@ -1,4 +1,5 @@
 #intro__Video {
+    padding: 75px 0px;
     font-family: 'Open Sans', sans-serif;
     .ford__introVideo{
         width: 80%;
@@ -25,14 +26,6 @@
             height: 650px;
             background-size: cover;
             position: relative;
-            .video-js {
-                height: 100%;
-                width: 100%;
-                display: block;
-            }
-            .play_video {
-                display: none;
-            }
             .btn_play {
                 span{
                     width: 100px;

@@ -1,0 +1,73 @@
+#intro__Picture{
+    padding: 75px 0px;
+    width: 98%;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    .ford__let{
+        position: relative;
+        transition: all 1s;
+        img {
+            width: 100%;
+            display: block;
+        }
+        .content{
+            @include styleText($color-gray-5,$fs-6,$fw-normal);
+            position: absolute;
+            top: 18%;
+            left: 32%;
+            letter-spacing: 2px;
+        }
+        .see_more{
+            position: absolute;
+            bottom: 10%;
+            left: 43%;
+            letter-spacing: 2px;
+            a {
+                @include styleText($color-gray-5,$fs-2,$fw-normal);
+                text-decoration: none;
+                .seemore__icon {
+                    width: 11px;
+                    height: 11px;
+                    border-radius: 50%;
+                    border: 1px solid white;
+                    line-height: 0.5;
+                    padding: 11px;
+                    display: inline-block;
+                    position: relative;
+                    i {
+                        font-size: $fs-1;
+                        position: absolute;
+                        top: 30%;
+                        left: 30%;
+                    }
+                }
+            }
+        }
+        &:hover {
+            .seemore__icon {
+                background-color: white;
+                i{
+                    color: #456f85;
+                }
+            }
+        }
+    }
+    .ford_list {
+        padding: 75px 0px;
+        width: 98%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        img {
+            display: block;
+            width: 100%;
+        }
+        .ford_item1 {
+            grid-column: 1 / span 3;
+        }
+        .ford_item3 {
+            grid-column: 1 / span 2;
+            grid-row: 2 / span 3;
+        }
+    }
+}
