@@ -16,6 +16,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
+    <!-- FONT Open Sans -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link href="https://players.brightcove.net/videojs-overlay/lib/videojs-overlay.css" rel='stylesheet'>
+
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="./css/main.css">
     <title>Ford</title>
@@ -35,7 +41,45 @@
         <!-- Bảo code here  -->
      <!-- Nhựt code here  -->
     <section id="intro__Video">
-        <div class="ford__introVideo"></div>
+        <div class="ford__introVideo">
+            <div class="ford__content">
+                <h2 class="ford__content_title">Let’s Finish Strong</h2>
+                <div class="ford__plain">
+                    <span class="">It’s in these moments that we must come together to protect our communities.&nbsp; Let’s look out for each other. Let’s Finish Strong.</span>
+                </div>
+            </div> 
+            <div class="ford__intro__video">
+                <div class="btn_play">
+                    <span><i class="fa fa-play"></i></span>
+                    <video  id="myPlayerID"
+                        data-video-id="4093372393001"
+                        data-account="1507807800001"
+                        data-player="H15p1gTkg"
+                        data-embed="default"
+                        data-application-id
+                        class="video-js play_video"
+                        controls></video>
+                    <script src="https://players.brightcove.net/1507807800001/H15p1gTkg_default/index.min.js"></script>
+
+                    <script src="https://players.brightcove.net/videojs-overlay/lib/videojs-overlay.js"></script>
+
+                    <script>
+                        videojs.getPlayer('myPlayerID').on('loadedmetadata', function() {
+                        var myPlayer = this;
+                        myPlayer.muted(true);
+                        myPlayer.play();
+                        myPlayer.overlay({
+                            overlays: [{
+                            content: 'This event-triggered overlay message appears when the video is playing',
+                            start: 'play',
+                            end: 'pause'
+                            }]
+                        });
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
     </section>
     <section id="intro__Picture">
         <div class="ford__introPicture"></div>

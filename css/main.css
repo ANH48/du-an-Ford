@@ -8,26 +8,80 @@
 html, body {
   font-family: 'Roboto', sans-serif;
   color: #29303b;
-  font-size: 15px;
+  font-size: 10px;
   font-weight: normal;
 }
-@media screen and (max-width: 1200px) {
-  
+
+#intro__Video {
+  font-family: 'Open Sans', sans-serif;
 }
 
-@media screen and (max-width: 768px) {
-  /* .header__left .header__form, .header__left .header__cate {
-    display: none;
-  }
-  .header__left .navbar-brand {
-    -webkit-box-flex: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
-  }
-  .header__right .ude-btnGroup {
-    display: none;
-  } */
+#intro__Video .ford__introVideo {
+  width: 80%;
+  margin: 0 auto;
 }
 
+#intro__Video .ford__introVideo .ford__content {
+  width: 65%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
 
+#intro__Video .ford__introVideo .ford__content .ford__content_title {
+  color: #333;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#intro__Video .ford__introVideo .ford__content .ford__plain {
+  color: #333;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#intro__Video .ford__introVideo .ford__intro__video {
+  background-image: url(../img/image.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 650px;
+  background-size: cover;
+  position: relative;
+}
+
+#intro__Video .ford__introVideo .ford__intro__video .video-js {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+#intro__Video .ford__introVideo .ford__intro__video .play_video {
+  display: none;
+}
+
+#intro__Video .ford__introVideo .ford__intro__video .btn_play span {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 18px 42px;
+  line-height: 2.5;
+  background-color: rgba(10, 11, 14, 0.5);
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#intro__Video .ford__introVideo .ford__intro__video:hover .btn_play span {
+  background-color: #0676b3;
+}
 /*# sourceMappingURL=main.css.map */
