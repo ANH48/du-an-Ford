@@ -1,0 +1,5 @@
+23/2/2020
+#Bão
+    -thêm file Helper/_extend.scss
+    -add thêm hình bị thiếu
+    -xóa bớt code dư (dư 1 section carosel)

@@ -1,8 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body {
@@ -11,6 +10,7 @@ html, body {
   font-size: 10px;
   font-weight: normal;
 }
+<<<<<<< HEAD
 
 #intro__Video {
   font-family: 'Open Sans', sans-serif;
@@ -84,4 +84,6 @@ html, body {
 #intro__Video .ford__introVideo .ford__intro__video:hover .btn_play span {
   background-color: #0676b3;
 }
+=======
+>>>>>>> dc5c056d6ca146a3314214fd1b51bc6fa3377733
 /*# sourceMappingURL=main.css.map */
