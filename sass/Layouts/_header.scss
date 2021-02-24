@@ -1,4 +1,4 @@
-// ĐÂY LÀ PHẦN VÍ DỤ ĐỂ CODE MẪU THÔI 
+// ĐÂY LÀ PHẦN VÍ DỤ ĐỂ CODE MẪU THÔI
 // .header__left{
 //     display: flex;
 //     .navbar-brand{
@@ -28,7 +28,7 @@
 //                 background-color: $color-white-0;
 //                 border-top: 1px solid $color-gray-3;
 //                 border-left: 1px solid $color-gray-3;
-//                 border-bottom: 1px solid $color-gray-3 
+//                 border-bottom: 1px solid $color-gray-3
 //             }
 //             &:focus + .input-group-append {
 //                 .input-group-text {
@@ -36,7 +36,7 @@
 //                     color: $color-red-0;
 //                     border-top: 1px solid $color-gray-3;
 //                     border-right: 1px solid $color-gray-3;
-//                     border-bottom: 1px solid $color-gray-3 
+//                     border-bottom: 1px solid $color-gray-3
 //                 }
 //                 &:hover{
 //                     .input-group-text {
@@ -75,7 +75,7 @@
 //                 background-color: $color-gray-1;
 //             }
 //         }
-        
+
 //     }
 //     .ude-teach {
 //         .nav-link {
@@ -97,7 +97,7 @@
 //         //     width: 45px;s
 //         //     height: 45px;
 //         //     line-height: 30px;
-            
+
 //         //     i {
 //         //         font-size: $fs-2;
 //         //         padding-left: - $fs-1;
@@ -105,10 +105,10 @@
 
 //         // }
 //     }
-   
+
 // }
 
-// // REPONSIVE 
+// // REPONSIVE
 // @include reponsive("extra-large"){
 //     .header__right {
 //         .ude-business,.ude-teach {
@@ -132,4 +132,147 @@
 //     }
 // }\
 
-// CODE HERE ... 
+// CODE HERE ...
+
+// .navbar {
+//     padding-top: 0;
+//     .ford_leftHeader {
+//         display: flex;
+//         background-color: $color-white-cream;
+//         width: 100%;
+//         height: 40px;
+//         align-items: center;
+//         padding-left: 130px;
+//         .nav-item {
+//             font-size: 16px;
+
+//             .nav-link {
+//                 color: midnightblue;
+//             }
+
+//             .nav-mustang {
+//                 position: relative;
+//                 padding-right: 20px;
+//                 &::after {
+//                     content: "";
+//                     height: 100%;
+//                     width: 1px;
+//                     position: absolute;
+//                     right: 0;
+//                     top: 0;
+//                     background-color: gray;
+//                 }
+//             }
+
+//             .nav-bronco {
+//                 position: relative;
+//                 padding-right: 20px;
+//                 &::after {
+//                     content: "";
+//                     height: 80%;
+//                     width: 1px;
+//                     position: absolute;
+//                     right: 0;
+//                     top: 0;
+//                     background-color: gray;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// .navbar{
+//     .ford_rightHeader_container{
+//         background-color: $color-white-cream;
+//         .ford_rightHeader{
+//             display: flex;
+//             align-items: center;
+//             img{
+//                 width: 100%;
+//                 height: 25px;
+//             }
+//         }
+//     }
+// }
+
+.container-fluid {
+    padding: 0 40px;
+}
+
+.navbar {
+    padding: 0;
+    background-color: $color-white-cream;
+    width: 100%;
+    height: 40px;
+    .ford_leftHeader {
+        padding-left: 90px;
+        display: flex;
+        .ford_header_nav {
+            width: 100%;
+            .ford_nav_mustang{
+                position: relative;
+                &::after{
+                    content: '';
+                    margin-top: 5px;
+                    height: 80%;
+                    width: 1px;
+                    position: absolute;
+                    right: -70px;
+                    top: 0;
+                    background-color: gray;
+                }
+            }
+            .ford_nav_bronco{
+                position: relative;
+                &::after{
+                    content: '';
+                    margin-top: 10px;
+                    height: 50%;
+                    width: 1px;
+                    position: absolute;
+                    right: -60px;
+                    top: 0;
+                    background-color: gray;
+                }
+            }
+            .ford_nav_content {
+                display: flex;
+                align-items: center;
+                margin-right: 70px;
+                height: 100%;
+                &:hover {
+                    text-decoration: none;
+                }
+                span {
+                    font-size: 12px;
+                    color: #102b4e;
+                }
+            }
+        }
+    }
+}
+
+.navbar {
+    .ford_rightHeader {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        padding-right: 110px;
+        &:hover {
+            text-decoration: none;
+        }
+        .ford_rightHeader_content {
+            font-size: 13px;
+            color: #2861a4;
+            font-weight: 700;
+            img {
+                width: 100%;
+                height: 23px;
+                margin-right: -30px;
+                &:hover {
+                    color: #2861a4;
+                }
+            }
+        }
+    }
+}

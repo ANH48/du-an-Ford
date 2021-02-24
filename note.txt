@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 test
+=======
+23/2/2020
+#Bão
+    -thêm file Helper/_extend.scss
+    -add thêm hình bị thiếu
+    -xóa bớt code dư (dư 1 section carosel)
+>>>>>>> dc5c056d6ca146a3314214fd1b51bc6fa3377733
