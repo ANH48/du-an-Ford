@@ -90,15 +90,101 @@ html, body {
       grid-template-columns: repeat(4, 1fr);
 }
 
-#intro__Picture .ford_list img {
-  display: block;
+#intro__Picture .ford_list .item {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
   width: 100%;
+  overflow: hidden;
+}
+
+#intro__Picture .ford_list .item .info_detail {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(21, 101, 192, 0.71);
+  font-weight: 400;
+  color: #FFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#intro__Picture .ford_list .item .content__Text {
+  color: #F7F8FA;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 15px 5px;
+  display: inline-block;
+  width: 80%;
+}
+
+#intro__Picture .ford_list .item .seemore__icon {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: middle;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+#intro__Picture .ford_list .item .seemore__icon i {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 2px;
+  line-height: 1.5;
+}
+
+#intro__Picture .ford_list .item .seemore__icon i:hover {
+  background-color: white;
+  color: #456f85;
+}
+
+#intro__Picture .ford_list .item:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#intro__Picture .ford_list img {
+  width: 100%;
+  display: block;
+  max-width: 100%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
 
 #intro__Picture .ford_list .ford_item1 {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-column: 1 / span 3;
+}
+
+#intro__Picture .ford_list .ford_item1 h4 {
+  font-size: 3.3rem;
+  text-align: center;
+  line-height: 2;
+}
+
+#intro__Picture .ford_list .ford_item1 p {
+  color: #626466;
+  font-size: 16px !important;
+  font-weight: bold;
+  text-align: center;
+}
+
+#intro__Picture .ford_list .ford_item2 {
+  width: 100%;
+  display: block;
+  overflow: hidden;
 }
 
 #intro__Picture .ford_list .ford_item3 {
@@ -108,6 +194,26 @@ html, body {
   -ms-grid-row: 2;
   -ms-grid-row-span: 3;
   grid-row: 2 / span 3;
+}
+
+#intro__Picture .ford_list .ford_item3 .info_detail .content__Text {
+  color: #F7F8FA;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 25px 10px;
+}
+
+#intro__Picture .ford_list .ford_item3 .info_detail .seemore__icon {
+  font-size: 24px;
+}
+
+#intro__Picture .ford_list .ford_item3 .info_detail .seemore__icon i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 2px;
+  line-height: 1.5;
 }
 
 #intro__Video {
