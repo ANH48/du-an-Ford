@@ -1,5 +1,5 @@
 #intro__Picture{
-    padding: 75px 0px;
+    padding-top: 75px;
     width: 98%;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
@@ -53,7 +53,6 @@
         }
     }
     .ford_list {
-        padding: 75px 0px;
         width: 98%;
         margin: 0 auto;
         display: grid;
@@ -154,5 +153,56 @@
                 }
             }
         }
+    }
+}
+#Airbag {
+    padding-top: -75px;
+    font-size: 42px;
+    .expanded-header{
+        padding: 30px 0px 50px 0px;
+        h2 {
+            font-size: 42px;
+            text-align: center;
+            line-height: 1.5;
+            font-weight: 200;
+            letter-spacing: 1px;
+        }
+        p {
+            text-align: center;
+        }
+        p a span{
+            font-size: 16px;
+            padding: 8px 75px;
+            font-weight: 100;
+            display: block;
+        }
+        p a{
+            margin-top: 30px;
+            color: rgb(255, 255, 255); 
+            background-color: rgb(217, 46, 20); 
+            border-color: rgb(217, 46, 20);
+            &:hover{
+                color: rgb(217,46,20);
+                background-color: #FFF;
+            }
+        }
+    }
+}
+#Disclosures{
+    .disclosures {
+        margin: 20px 0px;
+        .ford-btn-disclosures{
+            width: 100%;
+            .title-text{
+                font-size: 40px;
+            }
+            .disclosures-up {
+                display: none;
+            }
+        }
+        span {
+            color: rgba(21, 101, 192);
+        }
+        
     }
 }

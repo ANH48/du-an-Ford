@@ -13,7 +13,7 @@ html, body {
 }
 
 #intro__Picture {
-  padding: 75px 0px;
+  padding-top: 75px;
   width: 98%;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
@@ -81,7 +81,6 @@ html, body {
 }
 
 #intro__Picture .ford_list {
-  padding: 75px 0px;
   width: 98%;
   margin: 0 auto;
   display: -ms-grid;
@@ -214,6 +213,51 @@ html, body {
   border: 1px solid white;
   padding: 2px;
   line-height: 1.5;
+}
+
+#Airbag {
+  padding-top: -75px;
+  font-size: 42px;
+}
+
+#Airbag .expanded-header {
+  padding: 30px 0px 50px 0px;
+}
+
+#Airbag .expanded-header h2 {
+  font-size: 42px;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+#Airbag .expanded-header p {
+  text-align: center;
+}
+
+#Airbag .expanded-header p a span {
+  font-size: 16px;
+  padding: 8px 75px;
+  font-weight: 100;
+  display: block;
+}
+
+#Airbag .expanded-header p a {
+  margin-top: 30px;
+  color: white;
+  background-color: #d92e14;
+  border-color: #d92e14;
+}
+
+#Airbag .expanded-header p a:hover {
+  color: #d92e14;
+  background-color: #FFF;
+}
+
+#Disclosures .disclosures span {
+  display: inline-block;
+  color: rgba(21, 101, 192, 0.71);
 }
 
 #intro__Video {
