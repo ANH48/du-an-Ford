@@ -195,6 +195,7 @@
 //     }
 // }
 
+
 .container-fluid {
     padding: 0 40px;
 }
@@ -212,7 +213,7 @@
             .ford_nav_mustang{
                 position: relative;
                 &::after{
-                    content: '';
+                    content: '';  
                     margin-top: 5px;
                     height: 80%;
                     width: 1px;
@@ -269,10 +270,10 @@
                 width: 100%;
                 height: 23px;
                 margin-right: -30px;
-                &:hover {
-                    color: #2861a4;
-                }
+                
             }
         }
     }
 }
+
+// RESPONSIVE
