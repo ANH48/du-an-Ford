@@ -10,6 +10,9 @@
             width: 100%;
             display: block;
         }
+        .ds_none{
+            display: none;
+        }
         .content{
             @include styleText($color-gray-5,$fs-6,$fw-normal);
             position: absolute;
@@ -188,21 +191,83 @@
         }
     }
 }
-#Disclosures{
-    .disclosures {
-        margin: 20px 0px;
-        .ford-btn-disclosures{
-            width: 100%;
-            .title-text{
-                font-size: 40px;
-            }
-            .disclosures-up {
-                display: none;
-            }
+#Disclosures {
+    margin: 20px 0px;
+    width: 98%;
+    margin: 0 auto;
+    .ford-btn-disclosures{
+        font-size: $fs-2;
+        font-weight: 100;
+        border: none;
+        .disclosures-open{
+            transition: all 0.5s;
+            transform: rotate(0deg);
         }
-        span {
-            color: rgba(21, 101, 192);
-        }
-        
+        // .disclosures-open:hover{
+        //     transform: rotate(-180deg);
+        // }
     }
+    span {
+        color: #0676b3;
+    }
+    .disclosures-content {
+        display: none;
+        padding: 40px 100px;
+        margin: 20px 0;
+        font-size: 13px;
+        overflow: scroll;
+        height: 200px;
+        text-align: inherit;
+        background-color: #f7f7f7;
+        ul > li {
+            list-style: none;
+        }
+    }
+}
+#california_Residents{
+     background-color: #092A46;
+     margin-top: 1%;
+     .alert-banner {
+         padding-top: 25px;
+         padding-bottom: 10px;
+     }
+     .alert-banner-headline {
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 45px;
+        font-weight: 100;
+        letter-spacing: 2px;
+        line-height: 1.5;
+     }
+     .alert-banner-description {
+         display: block;
+         text-align: center;
+        .description {
+            color: #FFFFFF;
+            font-size: $fs-2;
+            font-weight: 100;
+            text-align: center;
+            line-height: 1.5;
+         }
+     }
+     .alert-banner-cta-container {
+        display: block;
+        text-align: center;
+        a {
+            background-color: rgb(55,169,232);
+            border: 1px solid rgb(55,169,232);
+            padding: 10px 20px;
+            font-size: $fs-2;
+            font-weight: 100;
+            margin-top: 1%;
+            transition: all 0.3s;
+            &:hover {
+                background-color: #FFF;
+                color: #092A46;
+                border: 1px solid #FFF;
+            }
+        }
+
+     }
+     
 }
