@@ -691,26 +691,26 @@ html, body {
   }
   #intro__Picture .ford__let .see_more {
     bottom: 8%;
-    left: 27%;
+    left: 32%;
     letter-spacing: 2px;
   }
   #intro__Picture .ford__let .see_more .seemore__text {
-    font-size: 40px;
+    font-size: 30px;
   }
   #intro__Picture .ford__let .see_more a .seemore__icon {
     border: none;
   }
   #intro__Picture .ford__let .see_more a .seemore__icon i {
     position: absolute;
-    top: -100%;
+    top: -65%;
     left: 0;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     border: 1px solid white;
-    padding: 15px 20px;
+    padding: 12px 15px;
     line-height: 1;
-    font-size: 40px;
+    font-size: 25px;
   }
   #intro__Picture .ford_list {
     padding-top: 75px;
