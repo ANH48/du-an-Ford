@@ -92,28 +92,28 @@
                         <span class="seemore__icon"><i class="fa fa-greater-than"></i></span>
                     </div>
                 </div>
-                <div class="item ford_item4 small-none">
+                <div class="item ford_item4 small-none medium-block">
                     <img src = "./img/cq5dam.web.768.768.jpeg">
                     <div class="info_detail">
                         <span class="content__Text">Learn More about Ford Fund</span>
                         <span class="seemore__icon"><i class="fa fa-greater-than"></i></span>
                     </div>
                 </div>
-                <div class="item ford_item5 small-none">
+                <div class="item ford_item5 small-none medium-block">
                     <img src = "./img/cq5dam.web.1280.1280.webp">
                     <div class="info_detail">
                         <span class="content__Text"><span class="white-txt">The All-New 2021 F-150 Raptor</span></span>
                         <span class="seemore__icon"><i class="fa fa-greater-than"></i></span>
                     </div>
                 </div>
-                <div class="item ford_item6 small-none">
+                <div class="item ford_item6 small-none medium-block">
                     <img src = "img/cq5dam.web.768.768 (2).webp">
                     <div class="info_detail">
                         <span class="content__Text">Learn More</span>
                         <span class="seemore__icon"><i class="fa fa-greater-than"></i></span>
                     </div>
                 </div>
-                <div class="item ford_item7 small-none">
+                <div class="item ford_item7 small-none medium-block">
                     <img src = "./img/cq5dam.web.768.768 (3).webp">
                     <div class="info_detail">
                         <span class="content__Text">COVID-19 Assistance</span>
@@ -156,7 +156,7 @@
                     <button class="ford_btn" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                         <div class="info_detail_small">
                             <span class="content__Text_small">View All</span>
-                            <span class="seemore__icon_small"><i class="fa fa-plus"></i></span>
+                            <span class="seemore__icon_small"><i class="fa fa-plus plus"></i><i class="fa fa-minus minus"></i></span>
                         </div>
                       </button>
                 </div>
@@ -281,6 +281,7 @@
 
         // slide disclosures
         $(document).ready(function(){
+            $( ".minus" ).hide();
             var down = 0;
             $("#flip").click(function(){
                 if(down == 0) {
@@ -299,10 +300,14 @@
             $(".ford_btn").click(function(){
                 if(view == 0) {
                     $(".content__Text_small").text("View Less");
+                    $( ".plus" ).hide();
+                    $( ".minus" ).show();
                     view = 1;
                 }
                 else {
                     $(".content__Text_small").text("View All");
+                    $( ".minus" ).hide();
+                    $( ".plus" ).show();
                     view = 0;
                 }
             });

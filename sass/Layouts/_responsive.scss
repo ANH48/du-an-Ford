@@ -2,6 +2,7 @@
 // vd : cả body, đổi đổi chữ mặc đinh cả web
 
 // REPONSIVE 
+
 // iphone 8plus
 @include reponsive("small"){
     // INTRO VIDEO
@@ -120,11 +121,11 @@
                 @include styleText($color-gray-5,$fs-3,100);
                 padding: 25px 5px;
                 display:inline-block;
-                width: 60%;
+                width: 58.5%;
                 text-align: right;
             }
             .seemore__icon_small{
-                width: 40%;
+                width: 41.5%;
                 display: flex;
                 vertical-align: middle;
                 align-items: center;
@@ -225,3 +226,221 @@
         }
     }
   }
+  // IPAD
+@include reponsive("medium"){
+// INTRO VIDEO
+#intro__Video{
+    padding: 75px 0px;
+    .ford__introVideo{
+        .ford__content{
+            .ford__content_title {
+                @include styleText($color-black-1,$fs-4,$fw-bold-1);
+            }
+            .ford__plain{
+                @include styleText($color-black-1,$fs-2,$fw-normal);
+            }
+        }
+        .ford__intro__video{
+            height: 400px;
+            .btn_play {
+                span{
+                    width: 100px;
+                    height: 100px;
+                    padding: 20px 40px;
+                    // border-radius: 50%;
+                    @include styleText($color-white-0,$fs-3,$fw-normal);
+                    top: 37%;
+                    left: 43%;
+                }
+            }
+        }
+    }
+}
+ // BANNER
+#intro__Picture{
+padding-top: 0px;
+.ford__let{
+    img {
+        height: 576px;
+    }
+    .content{
+        @include styleText($color-gray-5,$fs-4,100);
+        top: 10%;
+        left: 20%;
+        letter-spacing: 2px;
+    }
+    .see_more{
+        bottom: 8%;
+        left: 27%;
+        letter-spacing: 2px;
+        .seemore__text{
+            font-size: $fs-4;
+        }
+        a .seemore__icon{
+            border: none;
+            i{
+                position: absolute;
+                top: -100%;
+                left: 0;
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                border: 1px solid white;
+                padding: 15px 20px;
+                line-height: 1;
+                font-size: $fs-4;
+            }
+        }
+    }
+}
+    // LIST 
+    .ford_list {
+        padding-top: 75px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        .item {
+            transition: 0.5s;
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            .ford_btn {
+                display: none;
+            }
+            .info_detail{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                background: rgba(21, 101, 192, 0.71);
+                font-weight: 400;
+                color: #FFF;
+                display: flex;
+            }
+            .content__Text {
+                @include styleText($color-gray-5,$fs-1,$fw-normal);
+                padding: 15px 5px;
+                display:inline-block;
+                width: 80%;
+            }
+            .seemore__icon {
+                width: 20%;
+                display: flex;
+                vertical-align: middle;
+                align-items: center;
+                text-align: center;
+                font-size: $fs-2;
+                i {
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 50%;
+                    border: 1px solid white;
+                    padding: 2px;
+                    line-height: 1.5;
+                    &:hover{
+                        background-color: white;
+                        color: #456f85;
+                    }
+                }
+            }
+        }
+        img {
+            width: 100%;
+            display: block;
+            max-width: 100%;
+            transition: all 0.5s;
+            -webkit-transform: scale(1);
+            transform: scale(1);  
+        }
+        .ford_item1 {
+            grid-column: 1 / span 3;
+            h4 {
+                font-size: 3.3rem;
+                text-align: center;
+                line-height: 2;
+            }
+            p {
+                color: #626466;
+                font-size: 16px !important;
+                font-weight: bold;
+                text-align: center;
+                display: block;
+            }
+        }
+        .ford_item2 {
+            grid-column: 4 / span 1;
+            width: 100%;
+            display: block;
+            overflow: hidden;
+        }
+        .ford_item3 {
+            grid-column: 1 / span 2;
+            grid-row: 2 / span 3;
+            .info_detail{
+                .content__Text{
+                    @include styleText($color-gray-5,$fs-3,$fw-normal);
+                    padding: 25px 10px;
+                }
+                .seemore__icon{
+                    font-size: $fs-3;
+                    i {
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 50%;
+                        border: 1px solid white;
+                        padding: 10px;
+                        line-height: 1.5;
+                    }
+                }
+            }
+        }
+        .ford_item4 {
+            grid-column: 3 / span 1;
+        }
+        .ford_item5{
+            grid-column: 4 / span 1;
+        }
+        .ford_item6{
+            grid-column: 3 / span 1;
+        }
+        .ford_item7{
+            grid-column: 4 / span 1;
+        }
+        .medium-block{
+            display: block;
+        }
+        .collapse{
+            display: none;
+        }
+    }
+}
+#Airbag{
+    .expanded-header{
+        padding: 30px 0px 70px 0px;
+    }
+}
+#california_Residents{
+    .alert-banner {
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+    .alert-banner-headline {
+       font-size: 36px;
+    }
+    .alert-banner-description {
+       .description {
+           font-size: 18px;
+        }
+    }
+    .alert-banner-cta-container {
+        margin-top: 5px;
+       a {
+            background-color: #0276b3;
+            border: 1px solid #0276b3;
+            padding: 10px 20px;
+            font-size: 18px;
+       }
+
+    }
+    
+}
+}
