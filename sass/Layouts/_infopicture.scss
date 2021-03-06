@@ -29,15 +29,16 @@
                 @include styleText($color-gray-5,$fs-2,$fw-normal);
                 text-decoration: none;
                 .seemore__icon {
-                    width: 11px;
-                    height: 11px;
-                    border-radius: 50%;
-                    border: 1px solid white;
-                    line-height: 0.5;
-                    padding: 11px;
-                    display: inline-block;
                     position: relative;
                     i {
+                        transition: 0.5s;
+                        width: 11px;
+                        height: 11px;
+                        border-radius: 50%;
+                        border: 1px solid white;
+                        line-height: 0.5;
+                        padding: 11px;
+                        display: inline-block;
                         font-size: $fs-1;
                         position: absolute;
                         top: 30%;
@@ -48,8 +49,8 @@
         }
         &:hover {
             .seemore__icon {
-                background-color: white;
                 i{
+                    background-color: white;
                     color: #456f85;
                 }
             }
