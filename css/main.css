@@ -6,37 +6,33 @@
 
 html, body {
   font-family: 'Roboto', sans-serif;
-  color: #29303b;
-  font-size: 10px;
-  font-weight: normal;
 }
 
 .container-fluid {
-  padding: 0 40px;
+  padding: 0;
 }
 
-.navbar {
-  padding: 0;
-  background-color: #f2f3f5;
+.ford_first_nav {
+  padding: 0 45px;
   width: 100%;
   height: 40px;
+  background-color: #f2f3f5;
 }
 
-.navbar .ford_leftHeader {
-  padding-left: 90px;
+.ford_first_nav .ford_leftHeader {
   display: flex;
 }
 
-.navbar .ford_leftHeader .ford_header_nav {
+.ford_first_nav .ford_leftHeader .ford_header_nav {
   width: 100%;
 }
 
-.navbar .ford_leftHeader .ford_header_nav .ford_nav_mustang {
+.ford_first_nav .ford_leftHeader .ford_header_nav .ford_nav_mustang {
   position: relative;
 }
 
-.navbar .ford_leftHeader .ford_header_nav .ford_nav_mustang::after {
-  content: '';
+.ford_first_nav .ford_leftHeader .ford_header_nav .ford_nav_mustang::after {
+  content: "";
   margin-top: 5px;
   height: 80%;
   width: 1px;
@@ -44,14 +40,19 @@ html, body {
   right: -70px;
   top: 0;
   background-color: gray;
+  opacity: 0.3;
 }
 
-.navbar .ford_leftHeader .ford_header_nav .ford_nav_bronco {
+.ford_first_nav .ford_leftHeader .ford_header_nav .ford_nav_mustang .ford_nav_mustang_text:hover {
+  color: #0276b3;
+}
+
+.ford_first_nav .ford_leftHeader .ford_header_nav .ford_nav_bronco {
   position: relative;
 }
 
-.navbar .ford_leftHeader .ford_header_nav .ford_nav_bronco::after {
-  content: '';
+.ford_first_nav .ford_leftHeader .ford_header_nav .ford_nav_bronco::after {
+  content: "";
   margin-top: 10px;
   height: 50%;
   width: 1px;
@@ -59,44 +60,225 @@ html, body {
   right: -60px;
   top: 0;
   background-color: gray;
+  opacity: 0.3;
 }
 
-.navbar .ford_leftHeader .ford_header_nav .ford_nav_content {
+.ford_first_nav .ford_leftHeader .ford_header_nav .ford_nav_bronco .ford_nav_bronco_text:hover {
+  color: #337ab7;
+}
+
+.ford_first_nav .ford_leftHeader .ford_header_nav .ford_nav_used .ford_nav_used_text:hover {
+  color: #0276b3;
+}
+
+.ford_first_nav .ford_leftHeader .ford_header_nav .ford_first_nav_content {
   display: flex;
   align-items: center;
   margin-right: 70px;
   height: 100%;
 }
 
-.navbar .ford_leftHeader .ford_header_nav .ford_nav_content:hover {
+.ford_first_nav .ford_leftHeader .ford_header_nav .ford_first_nav_content:hover {
   text-decoration: none;
 }
 
-.navbar .ford_leftHeader .ford_header_nav .ford_nav_content span {
+.ford_first_nav .ford_leftHeader .ford_header_nav .ford_first_nav_content span {
   font-size: 12px;
   color: #102b4e;
 }
 
-.navbar .ford_rightHeader {
+.ford_first_nav .ford_rightHeader {
   display: flex;
   align-items: center;
   margin-left: auto;
-  padding-right: 110px;
 }
 
-.navbar .ford_rightHeader:hover {
+.ford_first_nav .ford_rightHeader:hover {
   text-decoration: none;
 }
 
-.navbar .ford_rightHeader .ford_rightHeader_content {
+.ford_first_nav .ford_rightHeader .ford_rightHeader_content {
   font-size: 13px;
   color: #2861a4;
   font-weight: 700;
 }
 
-.navbar .ford_rightHeader .ford_rightHeader_content img {
+.ford_first_nav .ford_rightHeader .ford_rightHeader_content img {
   width: 100%;
   height: 23px;
   margin-right: -30px;
+}
+
+.ford_vehicles_content {
+  display: none;
+}
+
+.ford_second_nav_container .ford_second_nav {
+  padding: 0 45px;
+  background-color: #fff;
+  height: 80px;
+  box-shadow: 0 8px 4px -4px #0003;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_vehicles {
+  display: none;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_content {
+  font-size: 14px;
+  color: #0276b3;
+  margin: 0 5px;
+  padding-left: 0;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_second_nav_content:hover {
+  color: #333333;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_logo {
+  margin-right: 50px;
+  height: 100%;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_logo img {
+  object-fit: contain;
+  height: 100%;
+  width: 90px;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_right .ford_second_nav_item_right {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_right .ford_second_nav_item_right .ford_second_nav_content_right {
+  padding: 0;
+  white-space: nowrap;
+  color: #0276b3;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_right .ford_second_nav_item_right .ford_second_nav_content_right:hover {
+  color: #333;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_second_nav_right img {
+  width: 25px;
+  height: 100%;
+}
+
+.ford_second_nav_container .ford_second_nav .ford_navbar_collapse {
+  justify-content: space-between;
+}
+
+.ford_arrow_down {
+  display: none;
+}
+
+.ford_arrow_up {
+  display: none;
+}
+
+.ford_arrow_right {
+  display: none;
+}
+
+.ford_deal {
+  display: none;
+}
+
+.ford_en {
+  margin-left: -20px;
+}
+
+.ford_bottom_list {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .ford_nav_container {
+    padding: 0;
+  }
+  .ford_account_text {
+    display: none;
+  }
+  .ford_navbar_collapse {
+    margin-left: -30px;
+  }
+  .ford_second_nav_item_left {
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .ford_nav_container .navbar {
+    display: none;
+  }
+  .ford_logo {
+    position: relative;
+    padding: 0;
+  }
+  .ford_navbar_collapse {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+  }
+  .ford_account_text {
+    display: inline-block;
+  }
+  .ford_second_nav_content {
+    margin: 0 !important;
+    padding: 15px 0px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DDD;
+  }
+  .ford_vehicles_content {
+    color: #fff !important;
+    background-color: #102b4e;
+    margin-bottom: 10px !important;
+    box-shadow: 0 8px 4px -4px #0003;
+  }
+  .ford_second_nav_item_right {
+    margin: 0 !important;
+  }
+  .ford_second_nav_content_right {
+    width: 100%;
+    padding: 15px 0px !important;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DDD;
+  }
+  .ford_deal {
+    display: flex;
+  }
+  .ford_en {
+    margin: 0;
+  }
+  .ford_vehicles_text {
+    padding-left: 40px;
+  }
+  .ford_text_left {
+    padding-left: 60px;
+  }
+  .ford_text_right {
+    padding-left: 60px;
+  }
+  .ford_arrow_up {
+    display: inline;
+    padding-right: 50px;
+  }
+  .ford_arrow_down {
+    display: inline;
+    padding-right: 50px;
+  }
+  .ford_arrow_right {
+    display: inline;
+    padding-right: 50px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
