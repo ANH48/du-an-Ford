@@ -27,7 +27,7 @@
     //    $value kích thước màn hình mình muốn lấy được
         $value: map-get($map: $breakpoints, $key: $breakpoint);
 
-        @media screen and (max-width: $value){
+        @media screen and (min-width: $value){
             @content;
         }
     }

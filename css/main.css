@@ -1,7 +1,8 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html, body {
@@ -20,6 +21,8 @@ html, body {
 }
 
 .ford_first_nav .ford_leftHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -72,8 +75,12 @@ html, body {
 }
 
 .ford_first_nav .ford_leftHeader .ford_header_nav .ford_first_nav_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: 70px;
   height: 100%;
 }
@@ -88,8 +95,12 @@ html, body {
 }
 
 .ford_first_nav .ford_rightHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: auto;
 }
 
@@ -117,7 +128,8 @@ html, body {
   padding: 0 45px;
   background-color: #fff;
   height: 80px;
-  box-shadow: 0 8px 4px -4px #0003;
+  -webkit-box-shadow: 0 8px 4px -4px #0003;
+          box-shadow: 0 8px 4px -4px #0003;
 }
 
 .ford_second_nav_container .ford_second_nav .ford_second_nav_left .ford_vehicles {
@@ -141,15 +153,20 @@ html, body {
 }
 
 .ford_second_nav_container .ford_second_nav .ford_logo img {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   height: 100%;
   width: 90px;
 }
 
 .ford_second_nav_container .ford_second_nav .ford_second_nav_right .ford_second_nav_item_right {
   font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 10px;
 }
 
@@ -169,7 +186,9 @@ html, body {
 }
 
 .ford_second_nav_container .ford_second_nav .ford_navbar_collapse {
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .ford_arrow_down {
@@ -196,22 +215,7 @@ html, body {
   display: none;
 }
 
-@media screen and (max-width: 1200px) {
-  .ford_nav_container {
-    padding: 0;
-  }
-  .ford_account_text {
-    display: none;
-  }
-  .ford_navbar_collapse {
-    margin-left: -30px;
-  }
-  .ford_second_nav_item_left {
-    white-space: nowrap;
-  }
-}
-
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
   .ford_nav_container .navbar {
     display: none;
   }
@@ -232,15 +236,20 @@ html, body {
     margin: 0 !important;
     padding: 15px 0px;
     font-size: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     border-bottom: 1px solid #DDD;
   }
   .ford_vehicles_content {
     color: #fff !important;
     background-color: #102b4e;
     margin-bottom: 10px !important;
-    box-shadow: 0 8px 4px -4px #0003;
+    -webkit-box-shadow: 0 8px 4px -4px #0003;
+            box-shadow: 0 8px 4px -4px #0003;
   }
   .ford_second_nav_item_right {
     margin: 0 !important;
@@ -249,11 +258,17 @@ html, body {
     width: 100%;
     padding: 15px 0px !important;
     font-size: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     border-bottom: 1px solid #DDD;
   }
   .ford_deal {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   .ford_en {
@@ -279,6 +294,21 @@ html, body {
   .ford_arrow_right {
     display: inline;
     padding-right: 50px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .ford_nav_container {
+    padding: 0;
+  }
+  .ford_account_text {
+    display: none;
+  }
+  .ford_navbar_collapse {
+    margin-left: -30px;
+  }
+  .ford_second_nav_item_left {
+    white-space: nowrap;
   }
 }
 /*# sourceMappingURL=main.css.map */

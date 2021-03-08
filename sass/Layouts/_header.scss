@@ -183,21 +183,6 @@
 
 
 // RESPONSIVE
-@include responsive("extra-large") {
-    .ford_nav_container {
-        padding: 0;
-    }
-    .ford_account_text {
-        display: none;
-    }
-    .ford_navbar_collapse {
-        margin-left: -30px;
-    }
-    .ford_second_nav_item_left {
-        white-space: nowrap;
-    }
-}
-
 @include responsive("large") {
     .ford_nav_container {
         .navbar {
@@ -271,3 +256,19 @@
     }
    
 }
+@include responsive("extra-large") {
+    .ford_nav_container {
+        padding: 0;
+    }
+    .ford_account_text {
+        display: none;
+    }
+    .ford_navbar_collapse {
+        margin-left: -30px;
+    }
+    .ford_second_nav_item_left {
+        white-space: nowrap;
+    }
+}
+
+
