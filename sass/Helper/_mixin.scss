@@ -4,6 +4,13 @@
 //     font-size: $fs;
 //     font-weight: $fw;
 // }
+=======
+//thêm style các loại chữ trong trang 
+@mixin styleText($color,$fs,$fw) {
+    color: $color;
+    font-size: $fs;
+    font-weight: $fw;
+}
 
 // @mixin styleButton($bg-color,$border-color,$pd-y,$pd-x,$radius){
 //     background-color: $bg-color;
@@ -27,7 +34,7 @@
     //    $value kích thước màn hình mình muốn lấy được
         $value: map-get($map: $breakpoints, $key: $breakpoint);
 
-        @media screen and (min-width: $value){
+        @media screen and (min-width:$value){
             @content;
         }
     }

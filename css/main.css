@@ -311,4 +311,1154 @@ html, body {
     white-space: nowrap;
   }
 }
+
+#intro__Picture {
+  padding-top: 75px;
+  width: 98%;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#intro__Picture .ford__let {
+  position: relative;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#intro__Picture .ford__let img {
+  width: 100%;
+  display: block;
+}
+
+#intro__Picture .ford__let .ds_none {
+  display: none;
+}
+
+#intro__Picture .ford__let .content {
+  color: #F7F8FA;
+  font-size: 50px;
+  font-weight: normal;
+  position: absolute;
+  top: 18%;
+  left: 32%;
+  letter-spacing: 2px;
+}
+
+#intro__Picture .ford__let .see_more {
+  position: absolute;
+  bottom: 10%;
+  left: 43%;
+  letter-spacing: 2px;
+}
+
+#intro__Picture .ford__let .see_more a {
+  color: #F7F8FA;
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#intro__Picture .ford__let .see_more a .seemore__icon {
+  position: relative;
+}
+
+#intro__Picture .ford__let .see_more a .seemore__icon i {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 1px solid white;
+  line-height: 0.5;
+  padding: 11px;
+  display: inline-block;
+  font-size: 12px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+#intro__Picture .ford__let:hover .seemore__icon i {
+  background-color: white;
+  color: #456f85;
+}
+
+#intro__Picture .ford_list {
+  width: 98%;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+#intro__Picture .ford_list .item {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+#intro__Picture .ford_list .item .info_detail {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(21, 101, 192, 0.71);
+  font-weight: 400;
+  color: #FFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#intro__Picture .ford_list .item .content__Text {
+  color: #F7F8FA;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 15px 5px;
+  display: inline-block;
+  width: 80%;
+}
+
+#intro__Picture .ford_list .item .seemore__icon {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: middle;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+#intro__Picture .ford_list .item .seemore__icon i {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 2px;
+  line-height: 1.5;
+}
+
+#intro__Picture .ford_list .item .seemore__icon i:hover {
+  background-color: white;
+  color: #456f85;
+}
+
+#intro__Picture .ford_list .item:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#intro__Picture .ford_list img {
+  width: 100%;
+  display: block;
+  max-width: 100%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+#intro__Picture .ford_list .ford_item1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / span 3;
+}
+
+#intro__Picture .ford_list .ford_item1 h4 {
+  font-size: 3.3rem;
+  text-align: center;
+  line-height: 2;
+}
+
+#intro__Picture .ford_list .ford_item1 p {
+  color: #626466;
+  font-size: 16px !important;
+  font-weight: bold;
+  text-align: center;
+}
+
+#intro__Picture .ford_list .ford_item2 {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+#intro__Picture .ford_list .ford_item3 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / span 2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  grid-row: 2 / span 3;
+}
+
+#intro__Picture .ford_list .ford_item3 .info_detail .content__Text {
+  color: #F7F8FA;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 25px 10px;
+}
+
+#intro__Picture .ford_list .ford_item3 .info_detail .seemore__icon {
+  font-size: 24px;
+}
+
+#intro__Picture .ford_list .ford_item3 .info_detail .seemore__icon i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 2px;
+  line-height: 1.5;
+}
+
+#Airbag {
+  padding-top: -75px;
+  font-size: 42px;
+}
+
+#Airbag .expanded-header {
+  padding: 30px 0px 50px 0px;
+}
+
+#Airbag .expanded-header h2 {
+  font-size: 42px;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+#Airbag .expanded-header p {
+  text-align: center;
+}
+
+#Airbag .expanded-header p a span {
+  font-size: 16px;
+  padding: 8px 75px;
+  font-weight: 100;
+  display: block;
+}
+
+#Airbag .expanded-header p a {
+  margin-top: 30px;
+  color: white;
+  background-color: #d92e14;
+  border-color: #d92e14;
+}
+
+#Airbag .expanded-header p a:hover {
+  color: #d92e14;
+  background-color: #FFF;
+}
+
+#Disclosures {
+  margin: 20px 0px;
+  width: 98%;
+  margin: 0 auto;
+}
+
+#Disclosures .ford-btn-disclosures {
+  font-size: 20px;
+  font-weight: 100;
+  border: none;
+}
+
+#Disclosures .ford-btn-disclosures .disclosures-open {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+#Disclosures span {
+  color: #0676b3;
+}
+
+#Disclosures .disclosures-content {
+  display: none;
+  padding: 40px 100px;
+  margin: 20px 0;
+  font-size: 13px;
+  overflow: scroll;
+  height: 200px;
+  text-align: inherit;
+  background-color: #f7f7f7;
+}
+
+#Disclosures .disclosures-content ul > li {
+  list-style: none;
+}
+
+#california_Residents {
+  background-color: #092A46;
+  margin-top: 1%;
+}
+
+#california_Residents .alert-banner {
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+#california_Residents .alert-banner-headline {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+#california_Residents .alert-banner-description {
+  display: block;
+  text-align: center;
+}
+
+#california_Residents .alert-banner-description .description {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#california_Residents .alert-banner-cta-container {
+  display: block;
+  text-align: center;
+}
+
+#california_Residents .alert-banner-cta-container a {
+  background-color: #37a9e8;
+  border: 1px solid #37a9e8;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 1%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#california_Residents .alert-banner-cta-container a:hover {
+  background-color: #FFF;
+  color: #092A46;
+  border: 1px solid #FFF;
+}
+
+#intro__Video {
+  padding: 75px 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#intro__Video .ford__introVideo {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#intro__Video .ford__introVideo .ford__content {
+  width: 65%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+#intro__Video .ford__introVideo .ford__content .ford__content_title {
+  color: #333;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#intro__Video .ford__introVideo .ford__content .ford__plain {
+  color: #333;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#intro__Video .ford__introVideo .ford__intro__video {
+  background-image: url(../img/image.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 650px;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+#intro__Video .ford__introVideo .ford__intro__video .btn_play span {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 18px 42px;
+  line-height: 2.5;
+  background-color: rgba(10, 11, 14, 0.5);
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#intro__Video .ford__introVideo .ford__intro__video:hover .btn_play span {
+  background-color: #0676b3;
+}
+
+@media screen and (min-width: 320px) {
+  #intro__Video {
+    padding: 25px 0px;
+  }
+  #intro__Video .ford__introVideo .ford__content {
+    width: 100%;
+  }
+  #intro__Video .ford__introVideo .ford__content .ford__content_title {
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.5;
+  }
+  #intro__Video .ford__introVideo .ford__content .ford__plain {
+    color: #333;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.5;
+  }
+  #intro__Video .ford__introVideo .ford__intro__video {
+    width: 100%;
+    height: 200px;
+    background-size: 100% 100%;
+  }
+  #intro__Video .ford__introVideo .ford__intro__video .btn_play span {
+    width: 60px;
+    height: 60px;
+    padding: 8px 24px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    top: 35%;
+    left: 40%;
+  }
+  #intro__Picture {
+    padding-top: 0px;
+  }
+  #intro__Picture .ford__let img {
+    width: 100%;
+    height: 356px;
+    display: block;
+  }
+  #intro__Picture .ford__let .small_ds_none {
+    display: none;
+  }
+  #intro__Picture .ford__let .small_picture {
+    display: block;
+  }
+  #intro__Picture .ford__let .content {
+    color: #F7F8FA;
+    font-size: 24px;
+    font-weight: 100;
+    top: 8%;
+    left: 15%;
+    letter-spacing: 2px;
+  }
+  #intro__Picture .ford__let .see_more {
+    bottom: 8%;
+    left: 30%;
+    letter-spacing: 2px;
+  }
+  #intro__Picture .ford__let .see_more a .seemore__icon i {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    width: 11px;
+    height: 11px;
+    padding: 12px;
+    font-size: 12px;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+  }
+  #intro__Picture .ford__let .see_more a .seemore__icon .fa-greater-than:before {
+    margin-left: -2px;
+    content: "\f531";
+  }
+  #intro__Picture .ford_list {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  #intro__Picture .ford_list .item {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1 / span 3;
+  }
+  #intro__Picture .ford_list .item .info_detail {
+    background: rgba(6, 120, 188, 0.9);
+  }
+  #intro__Picture .ford_list .item .info_detail_small {
+    width: 100%;
+    background: rgba(6, 120, 188, 0.9);
+    font-weight: 400;
+    color: #FFF;
+  }
+  #intro__Picture .ford_list .item .content__Text {
+    color: #F7F8FA;
+    font-size: 12px;
+    font-weight: 100;
+    padding: 15px 5px;
+    display: inline-block;
+    width: 80%;
+  }
+  #intro__Picture .ford_list .item .seemore__icon {
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    vertical-align: middle;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    font-size: 20px;
+  }
+  #intro__Picture .ford_list .item .seemore__icon i {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 2px;
+    line-height: 1.5;
+  }
+  #intro__Picture .ford_list .item .seemore__icon i:hover {
+    background-color: white;
+    color: #456f85;
+  }
+  #intro__Picture .ford_list .item .ford_btn {
+    width: 100%;
+    border: none;
+  }
+  #intro__Picture .ford_list .item .content__Text_small {
+    color: #F7F8FA;
+    font-size: 24px;
+    font-weight: 100;
+    padding: 25px 5px;
+    display: inline-block;
+  }
+  #intro__Picture .ford_list .item .seemore__icon_small {
+    display: inline-block;
+    font-size: 12px;
+  }
+  #intro__Picture .ford_list .item .seemore__icon_small i {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 4px;
+    line-height: 1.4;
+  }
+  #intro__Picture .ford_list .item .seemore__icon_small i:hover {
+    background-color: white;
+    color: #456f85;
+  }
+  #intro__Picture .ford_list .card-body {
+    padding: 0;
+  }
+  #intro__Picture .ford_list .small-block {
+    display: block;
+  }
+  #intro__Picture .ford_list .small-none {
+    display: none;
+  }
+  #intro__Picture .ford_list img {
+    width: 100%;
+    display: block;
+    max-width: 100%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  #intro__Picture .ford_list .ford_item1 {
+    padding: 25px 0px;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1 / span 3;
+  }
+  #intro__Picture .ford_list .ford_item1 h4 {
+    font-size: 2.8rem;
+    text-align: center;
+    line-height: 2;
+  }
+  #intro__Picture .ford_list .ford_item1 p {
+    display: none;
+  }
+  #intro__Picture .ford_list .ford_item2 {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+  }
+  #intro__Picture .ford_list .ford_item3 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1 / span 3;
+  }
+  #intro__Picture .ford_list .ford_item3 .info_detail .content__Text {
+    color: #F7F8FA;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 25px 10px;
+  }
+  #intro__Picture .ford_list .ford_item3 .info_detail .seemore__icon {
+    font-size: 24px;
+  }
+  #intro__Picture .ford_list .ford_item3 .info_detail .seemore__icon i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 2px;
+    line-height: 1.5;
+  }
+  #Disclosures {
+    padding: 25px 0px;
+  }
+  #california_Residents .alert-banner {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #california_Residents .alert-banner-headline {
+    font-size: 24px;
+  }
+  #california_Residents .alert-banner-description .description {
+    font-size: 16px;
+  }
+  #california_Residents .alert-banner-cta-container a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #intro__Video {
+    padding: 75px 0px;
+  }
+  #intro__Video .ford__introVideo .ford__content .ford__content_title {
+    color: #333;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  #intro__Video .ford__introVideo .ford__content .ford__plain {
+    color: #333;
+    font-size: 20px;
+    font-weight: normal;
+  }
+  #intro__Video .ford__introVideo .ford__intro__video {
+    height: 400px;
+  }
+  #intro__Video .ford__introVideo .ford__intro__video .btn_play span {
+    width: 100px;
+    height: 100px;
+    padding: 20px 40px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+    top: 37%;
+    left: 43%;
+  }
+  #intro__Picture {
+    padding-top: 0px;
+  }
+  #intro__Picture .ford__let img {
+    height: 576px;
+  }
+  #intro__Picture .ford__let .content {
+    color: #F7F8FA;
+    font-size: 40px;
+    font-weight: 100;
+    top: 10%;
+    left: 20%;
+    letter-spacing: 2px;
+  }
+  #intro__Picture .ford__let .see_more {
+    bottom: 8%;
+    left: 32%;
+    letter-spacing: 2px;
+  }
+  #intro__Picture .ford__let .see_more .seemore__text {
+    font-size: 30px;
+  }
+  #intro__Picture .ford__let .see_more a .seemore__icon i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    top: -50%;
+    right: 0;
+    padding: 12px 15px;
+    line-height: 1;
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  #intro__Picture .ford__let .see_more a .seemore__icon .fa-greater-than:before {
+    margin-left: 0px;
+    content: "\f531";
+  }
+  #intro__Picture .ford_list {
+    padding-top: 75px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
+  #intro__Picture .ford_list .item {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #intro__Picture .ford_list .item .ford_btn {
+    display: none;
+  }
+  #intro__Picture .ford_list .item .info_detail {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(21, 101, 192, 0.71);
+    font-weight: 400;
+    color: #FFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #intro__Picture .ford_list .item .content__Text {
+    color: #F7F8FA;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 15px 5px;
+    display: inline-block;
+    width: 80%;
+  }
+  #intro__Picture .ford_list .item .seemore__icon {
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    vertical-align: middle;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    font-size: 20px;
+  }
+  #intro__Picture .ford_list .item .seemore__icon i {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 2px;
+    line-height: 1.5;
+  }
+  #intro__Picture .ford_list .item .seemore__icon i:hover {
+    background-color: white;
+    color: #456f85;
+  }
+  #intro__Picture .ford_list img {
+    width: 100%;
+    display: block;
+    max-width: 100%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  #intro__Picture .ford_list .ford_item1 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1 / span 3;
+  }
+  #intro__Picture .ford_list .ford_item1 h4 {
+    font-size: 3.3rem;
+    text-align: center;
+    line-height: 2;
+  }
+  #intro__Picture .ford_list .ford_item1 p {
+    color: #626466;
+    font-size: 16px !important;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+  }
+  #intro__Picture .ford_list .ford_item2 {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-column: 4 / span 1;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+  }
+  #intro__Picture .ford_list .ford_item3 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / span 2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 3;
+    grid-row: 2 / span 3;
+  }
+  #intro__Picture .ford_list .ford_item3 .info_detail .content__Text {
+    color: #F7F8FA;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 25px 10px;
+  }
+  #intro__Picture .ford_list .ford_item3 .info_detail .seemore__icon {
+    font-size: 24px;
+  }
+  #intro__Picture .ford_list .ford_item3 .info_detail .seemore__icon i {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 10px;
+    line-height: 1.5;
+  }
+  #intro__Picture .ford_list .ford_item4 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3 / span 1;
+  }
+  #intro__Picture .ford_list .ford_item5 {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-column: 4 / span 1;
+  }
+  #intro__Picture .ford_list .ford_item6 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3 / span 1;
+  }
+  #intro__Picture .ford_list .ford_item7 {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-column: 4 / span 1;
+  }
+  #intro__Picture .ford_list .medium-block {
+    display: block;
+  }
+  #intro__Picture .ford_list .collapse {
+    display: none;
+  }
+  #Airbag .expanded-header {
+    padding: 30px 0px 70px 0px;
+  }
+  #california_Residents .alert-banner {
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+  #california_Residents .alert-banner-headline {
+    font-size: 36px;
+  }
+  #california_Residents .alert-banner-description .description {
+    font-size: 18px;
+  }
+  #california_Residents .alert-banner-cta-container {
+    margin-top: 5px;
+  }
+  #california_Residents .alert-banner-cta-container a {
+    background-color: #0276b3;
+    border: 1px solid #0276b3;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #intro__Video {
+    padding: 75px 0px;
+  }
+  #intro__Video .ford__introVideo {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #intro__Video .ford__introVideo .ford__content {
+    width: 60%;
+    margin: 0 auto;
+  }
+  #intro__Video .ford__introVideo .ford__content .ford__content_title {
+    color: #333;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  #intro__Video .ford__introVideo .ford__content .ford__plain {
+    color: #333;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+  }
+  #intro__Video .ford__introVideo .ford__intro__video {
+    height: 650px;
+  }
+  #intro__Video .ford__introVideo .ford__intro__video .btn_play span {
+    width: 100px;
+    height: 100px;
+    padding: 18px 42px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+    top: 45%;
+    left: 45%;
+  }
+  #intro__Picture {
+    padding-top: 0px;
+    width: 95%;
+    margin: 0 auto;
+  }
+  #intro__Picture .ford__let img {
+    width: 100%;
+    height: 356px;
+    display: block;
+  }
+  #intro__Picture .ford__let .small_ds_none {
+    display: block;
+  }
+  #intro__Picture .ford__let .small_picture {
+    display: none;
+  }
+  #intro__Picture .ford__let .content {
+    color: #F7F8FA;
+    font-size: 40px;
+    font-weight: 100;
+    top: 10%;
+    left: 35%;
+    letter-spacing: 2px;
+  }
+  #intro__Picture .ford__let .see_more {
+    bottom: 10%;
+    left: 40%;
+    letter-spacing: 2px;
+  }
+  #intro__Picture .ford__let .see_more a .seemore__icon i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    top: -50%;
+    right: 0;
+    padding: 12px 15px;
+    line-height: 1;
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  #intro__Picture .ford__let .see_more a .seemore__icon .fa-greater-than:before {
+    margin-left: 0px;
+    content: "\f531";
+  }
+  #intro__Picture .ford_list {
+    padding-top: 0px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
+  #intro__Picture .ford_list .item {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  #intro__Picture .ford_list .item .ford_btn {
+    display: none;
+  }
+  #intro__Picture .ford_list .item .info_detail {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(21, 101, 192, 0.71);
+    font-weight: 400;
+    color: #FFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #intro__Picture .ford_list .item .content__Text {
+    color: #F7F8FA;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 15px 5px;
+    display: inline-block;
+    width: 80%;
+  }
+  #intro__Picture .ford_list .item .seemore__icon {
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    vertical-align: middle;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    font-size: 20px;
+  }
+  #intro__Picture .ford_list .item .seemore__icon i {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 2px;
+    line-height: 1.5;
+  }
+  #intro__Picture .ford_list .item .seemore__icon i:hover {
+    background-color: white;
+    color: #456f85;
+  }
+  #intro__Picture .ford_list img {
+    width: 100%;
+    display: block;
+    max-width: 100%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  #intro__Picture .ford_list .ford_item1 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1 / span 3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #intro__Picture .ford_list .ford_item1 h4 {
+    font-size: 3.3rem;
+    text-align: center;
+    line-height: 2;
+  }
+  #intro__Picture .ford_list .ford_item1 p {
+    color: #626466;
+    font-size: 16px !important;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+  }
+  #intro__Picture .ford_list .ford_item2 {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-column: 4 / span 1;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+  }
+  #intro__Picture .ford_list .ford_item3 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / span 2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 3;
+    grid-row: 2 / span 3;
+  }
+  #intro__Picture .ford_list .ford_item3 .info_detail .content__Text {
+    color: #F7F8FA;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 25px 10px;
+  }
+  #intro__Picture .ford_list .ford_item3 .info_detail .seemore__icon {
+    font-size: 24px;
+  }
+  #intro__Picture .ford_list .ford_item3 .info_detail .seemore__icon i {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 10px;
+    line-height: 1.5;
+  }
+  #intro__Picture .ford_list .ford_item4 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3 / span 1;
+  }
+  #intro__Picture .ford_list .ford_item5 {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-column: 4 / span 1;
+  }
+  #intro__Picture .ford_list .ford_item6 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3 / span 1;
+  }
+  #intro__Picture .ford_list .ford_item7 {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-column: 4 / span 1;
+  }
+  #intro__Picture .ford_list .medium-block {
+    display: block;
+  }
+  #intro__Picture .ford_list .collapse {
+    display: none;
+  }
+  #Airbag {
+    width: 95%;
+    margin: 0 auto;
+  }
+  #Airbag .expanded-header {
+    padding: 30px 0px 70px 0px;
+  }
+  #Disclosures {
+    width: 95%;
+    margin: 0 auto;
+    padding: 25px 0px;
+  }
+  #california_Residents {
+    width: 95%;
+    margin: 0 auto;
+  }
+  #california_Residents .alert-banner {
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+  #california_Residents .alert-banner-headline {
+    font-size: 42px;
+  }
+  #california_Residents .alert-banner-description .description {
+    font-size: 20px;
+  }
+  #california_Residents .alert-banner-cta-container {
+    margin-top: 5px;
+  }
+  #california_Residents .alert-banner-cta-container a {
+    background-color: #0276b3;
+    border: 1px solid #0276b3;
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
