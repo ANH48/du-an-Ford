@@ -4,7 +4,7 @@
 // REPONSIVE 
 
 // iphone 8plus
-@include reponsive("small"){
+@include responsive("small"){
     // INTRO VIDEO
     #intro__Video{
           padding: 25px 0px;
@@ -242,7 +242,7 @@
     }
   }
   // IPAD
-@include reponsive("medium"){
+@include responsive("medium"){
     // INTRO VIDEO
     #intro__Video{
         padding: 75px 0px;
@@ -466,7 +466,7 @@
 }
 
 // Desktop 
-@include reponsive("extra-large"){
+@include responsive("extra-large"){
    // INTRO VIDEO
    #intro__Video{
     padding: 75px 0px;
